@@ -1,0 +1,58 @@
+#chick {
+    position: relative;
+    left: -50px; /* 注意CSS中的单位 */
+    top: 50%;
+    transform: translate(-50%, 150%);
+}
+
+
+#cat {
+    position: fixed; /* 或 'absolute'，取决于您的具体需求 */
+    right: 100px;
+    bottom: 50px;
+    transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
+}
+
+/* weather */
+#sun {
+    position: fixed; /* 或 'absolute'，取决于您的具体需求 */
+    left: 20px;
+    top: 15px;
+    transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
+    z-index: 9999;
+}
+
+#rain {
+    position: fixed; /* 或 'absolute'，取决于您的具体需求 */
+    left: 100px;
+    top: 20px;
+    transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
+    z-index: 9999;
+}
+
+#grass {
+    position: fixed; /* 或 'absolute'，取决于您的具体需求 */
+    left: 190px;
+    top: 20px;
+    transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
+    z-index: 9999;
+}
+
+
+#Chichi {
+    position: fixed; /* 或 'absolute'，取决于您的具体需求 */
+    left: 190px;
+    top: 30px;
+    transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
+    display: none;
+}
+
+#Cheshire {
+    position: fixed; /* 或 'absolute'，取决于您的具体需求 */
+    right: 280px;
+    bottom: 160px;
+    transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
+    display: none;
+}
+
+

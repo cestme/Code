@@ -19,7 +19,7 @@
     left: 20px;
     top: 15px;
     transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
-    z-index: 9999;
+    z-index: 9998;
 }
 
 #rain {
@@ -27,7 +27,7 @@
     left: 100px;
     top: 20px;
     transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
-    z-index: 9999;
+    z-index: 9998;
 }
 
 #grass {
@@ -35,7 +35,7 @@
     left: 190px;
     top: 20px;
     transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
-    z-index: 9999;
+    z-index: 9998;
 }
 
 
@@ -45,6 +45,7 @@
     top: 30px;
     transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
     display: none;
+    z-index: 9999;
 }
 
 #Cheshire {
@@ -53,6 +54,7 @@
     bottom: 160px;
     transition: all 0.5s ease; /* 可选，为位置变化添加平滑过渡效果 */
     display: none;
+    z-index: 9999;
 }
 
 
